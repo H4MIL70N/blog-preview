@@ -1,0 +1,83 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    border: 2px solid hsl(0, 0%, 7%);
+    border-radius: 25px;
+    box-shadow: 10px 10px hsl(0, 0%, 7%);
+    width: 475px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.preview{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.preview img{
+    width: 450px;
+    border-radius: 15px;
+}
+
+button{
+    background-color: hsl(47, 88%, 63%);
+    border: solid hsl(47, 88%, 63%);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 800;
+    margin: 25px;
+    margin-top: 0px;
+    width: 105px;
+    height: 35px;
+}
+
+p{
+    margin: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: -5px;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 37px;
+    margin-top: 1px;
+    font-weight: 800;
+    font-size: 27px;
+}
+
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 37px;
+    font-size: 18px;
+    color: hsl(0, 0%, 50%) ;
+    line-height: 27px;
+    margin-top: 5px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    margin-top:-40px;
+}
+
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+    margin-left: -10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.author{
+    width: 50px;
+    border-radius: 100px;
+    margin: 37px;
+    
+}
